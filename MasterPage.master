@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hasti | Login</title>
+<link href="script-css/styles.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .auto-style1 {
+            height: 152px;
+            width: 314px;
+            margin-top: 0px;
+        }
+    </style>
+</head>
+
+<body>
+<div id="header">
+	<div class="content">
+		<div class="logo"><img src="images/hastilogof.gif" alt="" class="auto-style1" /></div>
+		<div class="links">
+			<ul>
+				<li><a href="teachlogin.aspx">Teacher Login</a></li>
+				<li><a href="stulogin.aspx">Student Login</a></li>
+			</ul>
+		 </div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<div id="loginArea">
+	<div class="form">
+		<div class="title" style="width: 383px; height: 141px; margin-left: 40px; margin-top: 28px">Welcome to the Login Page of HASTI.
+            
+            
+            
+            <br />
+            <br />
+            
+            
+            
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                <p>
+                    <br />
+                </p>
+
+            </asp:ContentPlaceHolder>
+		</div>
+		
+
+	</div>
+</div>
+<div id="footer">Copyrights © 2016 Hasti. All Rights Reserved.</div>
+</body>
+</html>

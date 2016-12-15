@@ -1,0 +1,73 @@
+/* CSS Document for About.me */
+
+body{ margin:0; background-color:#e3e7e8; }
+
+.clearfix{ clear:both; }
+
+h1, h2, h3, h4, h5, h6{ margin:0 0 12px 0; padding:0; font-weight:normal; }
+
+p{ padding:0; margin:0 0 12px 0; font-size:13px; line-height:19px; }
+
+a{ color:#333333; }
+
+#header{ background:url(../images/top-bg.jpg) repeat-x; height:195px; }
+
+#header .content{ width:968px; margin:0 auto; padding-top:40px; }
+
+#header .logo{ float:left; }
+
+#header .links{ float:right; margin-top:116px; }
+
+#header .links ul{ margin:0; padding:0; list-style-type:none; }
+
+#header .links li{ display:inline; margin:0 0 0 30px; font:16px Arial, Helvetica, sans-serif; }
+
+#header .links li a{ color:#e3e7e8; text-decoration:none; }
+
+#header .links li a:hover{ color:#FFCC33; }
+
+#loginArea{ background:url(../images/pecback.jpg);background-repeat: no-repeat; width:968px; height:500px; margin:15px auto 15px; }
+
+#loginArea .form{ padding:31px 54px 0 561px; font:11px Arial, Helvetica, sans-serif; color:#171717; }
+
+#loginArea .title{ font:20px Arial, Helvetica, sans-serif; color:#072c38; line-height:31px; margin-bottom:35px; }
+
+.field{ background-color:#e3e7e8; border:1px solid #c8d2d5; padding: 10px;  width: 331px; }
+
+#footer{ height:121px; background-color:#ececec; text-align:center; font:11px Arial, Helvetica, sans-serif; color:#171717; line-height:121px; }
+
+.profile{ position:relative; width:1002px; margin:0 auto; }
+
+.profile .image{ width:1002px; margin:0 auto;   }
+
+.info{
+	position:absolute;
+	background:url(../images/bg.png) repeat;
+	width: 480px;
+	padding:20px;
+	z-index:100;
+	left: 30px;
+	top: 68px;
+	color:#ffffff;
+	font:13px Arial, Helvetica, sans-serif;
+	line-height:19px;
+}
+
+#header2{ background:url(../images/top-bg.jpg) repeat-x; height:30px; }
+
+#header2 .logo{ float:left; padding-top:5px;}
+
+#header2 .links{ float:right; }
+
+#header2 .links ul{ margin:0; padding:0; list-style-type:none; }
+
+#header2 .links li{ display:inline; margin:0 10px; font:14px Arial, Helvetica, sans-serif; line-height:30px; }
+
+#header2 .links li a{ color:#e3e7e8; text-decoration:none; }
+
+#header2 .links li a:hover{ color:#FFCC33; }
+
+#contentPart{ width:940px; min-height:440px; margin:15px auto 15px; background-color:#ECECEC; padding:15px; border-radius:10px; font-family:Arial, Helvetica, sans-serif; font-size:13px; }
+
+.field2{ width:300px; padding:7px; }
+.textarea{ width:313px; height:200px; }

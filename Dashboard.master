@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Dashboard.master.cs" Inherits="Dashboard" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hasti |User</title>
+<link href="../script-css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <form id="form1" runat="server">
+<div id="header2">
+	<div class="logo"><a href="#"><img src="images/hasti-slogo.GIF" alt="" width="105" height="20" border="0" /></a></div>
+<div class="links">
+			<ul>
+				<li><a href="user_profile.aspx">Profile</a></li>
+				<li><a href="user_edtprofile.aspx">Edit Profile</a></li>
+				<li><a href="user_view_groups.aspx">View Groups</a></li>
+                
+                <li><a href="teach_discussforum.aspx">Discussion Forum</a></li>
+                <li><asp:LinkButton ID="lk1" runat="server" OnClick="lk1_Click">Logout</asp:LinkButton></li>
+			</ul>
+		 </div>
+	<div class="clearfix"></div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+        <p>
+            <br />
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+
+    </asp:ContentPlaceHolder>
+</div>
+</form>
+</body>
+</html>
